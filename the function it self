@@ -1,0 +1,8 @@
+#substitute every print with centerize
+#!! not everything will work as expected!!
+#if it doesn't work use the normal print like this
+#print((" " * (118 - (|the rounded number of digits in the sentence|/2))) + |and the sentence you are going to print|)
+def centerize(B): 
+  var0 = len(B)/2
+  var00 = " " * (118 - round(var0))
+  print(var00 + B)
